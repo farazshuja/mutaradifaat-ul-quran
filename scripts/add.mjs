@@ -1,10 +1,13 @@
 // To add a word from word.json into /data/arabicIndex.json
 import word from './word.json' assert { type: 'json' };
+import path from 'path';
 import { promises as fsPromises } from 'fs';
 
 const sortIndex = (x) => ['a', 'b', 't', 'v', 'j', 'H', 'x', 'd', '*', 'r', 'z', 'j', 's', '$', 'S', 'D', 'T', 'Z', 'E', 'g', 'f', 'k', 'q', 'l', 'm', 'n', 'w', 'h', 'y'].findIndex((y) => x === y);
 
-fsPromises.readFile('../data/temp.json', 'utf8') 
+const arabicIndexFile = path.join(process.cwd(), 'data/arabicIndex.json');
+
+fsPromises.readFile(arabicIndexFile, 'utf8') 
     .then(data => { 
             debugger;
             let json = JSON.parse(data);
@@ -32,7 +35,7 @@ fsPromises.readFile('../data/temp.json', 'utf8')
                 // sort it
                 json = json.sort((a, b) => (sortIndex(a.bw) - sortIndex(b.bw)));
                 
-                fsPromises.writeFile('../data/temp.json', JSON.stringify(json, null, 4))
+                fsPromises.writeFile(arabicIndexFile, JSON.stringify(json, null, 4))
                         .then(  () => { console.log('Update Success'); })
                         .catch(err => { console.log("Update Failed: " + err);});
             }
