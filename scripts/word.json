@@ -1,13 +1,13 @@
 {
-    "ab": "ه",
-    "bw": "h",
+    "ab": "و",
+    "bw": "w",
     "list": [
         {
-            "root": "هدى",
-            "root_bw": "hdY",
-            "word": "هَدَى",
-            "urdu_mean": "هدايات دينا",
-            "page": 901
+            "root": "وقي",
+            "root_bw": "wqy",
+            "word": "مُتَّقِى",
+            "urdu_mean": "نيك بخت",
+            "page": 885
         }        
     ]
 }

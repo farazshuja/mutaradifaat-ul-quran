@@ -3,8 +3,6 @@ import word from './word.json' assert { type: 'json' };
 import path from 'path';
 import { promises as fsPromises } from 'fs';
 
-const sortIndex = (x) => ['a', 'b', 't', 'v', 'j', 'H', 'x', 'd', '*', 'r', 'z', 'j', 's', '$', 'S', 'D', 'T', 'Z', 'E', 'g', 'f', 'k', 'q', 'l', 'm', 'n', 'w', 'h', 'y'].findIndex((y) => x === y);
-
 const arabicIndexFile = path.join(process.cwd(), 'data/arabicIndex.json');
 
 fsPromises.readFile(arabicIndexFile, 'utf8') 
@@ -20,20 +18,17 @@ fsPromises.readFile(arabicIndexFile, 'utf8')
                     const listIndex = json[alphaIndex].list.findIndex((j) => j.word === word.list[0].word);
                     if (listIndex === -1) {
                         json[alphaIndex].list.push(word.list[0]);
-                        // sort it
-                        const v = (rootBw) => {
-                            let i = 0;
-                            rootBw.forEach((c) => i += sortIndex(c));
-                            return i;
-                        };
-                        json[alphaIndex].list = json[alphaIndex].list.sort((a, b) => (v(a.root_bw) - v(b.root_bw)));
+
+                        const collator = new Intl.Collator('ar');
+                        json[alphaIndex].list = json[alphaIndex].list.sort((a, b) => collator.compare(a.root, b.root));
                     }
                 } else {
                     json.push(word);
                 }
 
                 // sort it
-                json = json.sort((a, b) => (sortIndex(a.bw) - sortIndex(b.bw)));
+                const collator = new Intl.Collator('ar');
+                json = json.sort((a, b) => collator.compare(a.ab, b.ab));
                 
                 fsPromises.writeFile(arabicIndexFile, JSON.stringify(json, null, 4))
                         .then(  () => { console.log('Update Success'); })
