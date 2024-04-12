@@ -8,7 +8,7 @@
                         <HeadText v-if="word[idx]?.root !== word[idx-1]?.root" :text="word.root" :id="word.root_bw" cname="h3" />
                         <div class="word">
                             <span class="base-word">{{ word.word }}</span>
-                            <UrduWordLink :mean="word.urdu_mean" :page="word.page" />
+                            <UrduWordLink :mean="word.urdu_mean" :page="word.page" :q-ref="word.q_ref" />
                         </div>
                     </div>
                 </div>

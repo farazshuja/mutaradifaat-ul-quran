@@ -1,13 +1,13 @@
 {
-    "ab": "و",
-    "bw": "w",
+    "ab": "ن",
+    "bw": "n",
     "list": [
         {
-            "root": "وقي",
-            "root_bw": "wqy",
-            "word": "مُتَّقِى",
-            "urdu_mean": "نيك بخت",
-            "page": 885
+            "root": "نفق",
+            "root_bw": "nfq",
+            "word": "اَنْفَقَ",
+            "urdu_mean": "خرچ كرنا",
+            "page": 478
         }        
     ]
 }
