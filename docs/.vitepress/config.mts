@@ -19,7 +19,7 @@ export default defineConfig({
             text: 'Arabic Index',
             link: '/arabic-index',
             collapsed: true,
-            items: getArabicIndexAlphabets('/arabic-index'),
+            // items: getArabicIndexAlphabets('/arabic-index'),
           },
           { text: 'Runtime API Examples', link: '/api-examples', collapsed: true }
         ]

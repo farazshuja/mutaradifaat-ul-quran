@@ -1,17 +1,24 @@
 [
     {
         "ab": "ا",
-        "bw": "a",
+        "bw": "A",
         "list": [
             {
+                "root": "اخر",
+                "root_bw": "Axr",
+                "word": "اٰخِرَت",
+                "urdu_mean": "آخرت",
+                "page": 88
+            },
+            {
                 "root": "اله",
-                "root_bw": "alh",
+                "root_bw": "Alh",
                 "word": "اِلٰهَ",
                 "urdu_mean": "اللّٰه"
             },
             {
                 "root": "امن",
-                "root_bw": "amn",
+                "root_bw": "Amn",
                 "word": "اٰمَنَ",
                 "urdu_mean": [
                     "ايمان لانا",
@@ -170,6 +177,18 @@
         ]
     },
     {
+        "ab": "ف",
+        "bw": "f",
+        "list": [
+            {
+                "root": "فلح",
+                "root_bw": "flH",
+                "word": "اَفْلَحَ",
+                "urdu_mean": "كامياب هونا"
+            }
+        ]
+    },
+    {
         "ab": "ق",
         "bw": "q",
         "list": [
@@ -232,6 +251,13 @@
         "bw": "n",
         "list": [
             {
+                "root": "نزل",
+                "root_bw": "nzl",
+                "word": "اَنْزَلَ",
+                "urdu_mean": "اتارنا",
+                "page": 127
+            },
+            {
                 "root": "نعم",
                 "root_bw": "nEm",
                 "word": "اَنْعَمَ",
@@ -276,6 +302,12 @@
                 "word": "هَدَى",
                 "urdu_mean": "هدايات دينا",
                 "page": 901
+            },
+            {
+                "root": "هدي",
+                "root_bw": "hdy",
+                "word": "هُدٰى",
+                "urdu_mean": "راسته"
             }
         ]
     },
@@ -296,6 +328,13 @@
         "ab": "ي",
         "bw": "y",
         "list": [
+            {
+                "root": "يقن",
+                "root_bw": "yqn",
+                "word": "اَيْقَنَ",
+                "urdu_mean": "يقين كرنا",
+                "page": 921
+            },
             {
                 "root": "يوم",
                 "root_bw": "ywm",
