@@ -4,6 +4,200 @@
         "bw": "A",
         "list": [
             {
+                "root": "أ",
+                "root_bw": ">",
+                "word": "أ",
+                "urdu_mean": "كيا",
+                "page": 742
+            },
+            {
+                "root": "ابب",
+                "root_bw": "Abb",
+                "word": "اَبّ",
+                "urdu_mean": "چاره",
+                "page": 427
+            },
+            {
+                "root": "ابد",
+                "root_bw": "Abd",
+                "word": "اَبَدَ",
+                "urdu_mean": "هميشه _ كبهى",
+                "page": 911
+            },
+            {
+                "root": "ابق",
+                "root_bw": "Abq",
+                "word": "اَبَقَ",
+                "urdu_mean": "بهاگنا",
+                "page": 255
+            },
+            {
+                "root": "ابل",
+                "root_bw": "Abl",
+                "word": "اِبل",
+                "urdu_mean": "اونٹ",
+                "page": 180
+            },
+            {
+                "root": "ابل",
+                "root_bw": "Abl",
+                "word": "ابابيل",
+                "urdu_mean": "جماعت (جانوروں كى)",
+                "page": 409
+            },
+            {
+                "root": "ابو",
+                "root_bw": "Abw",
+                "word": "اَبْ",
+                "urdu_mean": "باپ",
+                "page": 185
+            },
+            {
+                "root": "ابى",
+                "root_bw": "AbY",
+                "word": "اَبٰى",
+                "urdu_mean": "انكار كرنا",
+                "page": 175
+            },
+            {
+                "root": "اتى",
+                "root_bw": "AtY",
+                "word": "اَتٰى",
+                "urdu_mean": "آنا",
+                "page": 115
+            },
+            {
+                "root": "اتى",
+                "root_bw": "AtY",
+                "word": "اَتٰى ب",
+                "urdu_mean": "لانا",
+                "page": 775
+            },
+            {
+                "root": "اتى",
+                "root_bw": "AtY",
+                "word": "اٰتٰى",
+                "urdu_mean": "دينا",
+                "page": 529
+            },
+            {
+                "root": "اثث",
+                "root_bw": "Avv",
+                "word": "اثاث",
+                "urdu_mean": "سامان",
+                "page": 591
+            },
+            {
+                "root": "اثر",
+                "root_bw": "Avr",
+                "word": "اَثَر",
+                "urdu_mean": ["قدم", "نشانى"],
+                "page": [695, 865]
+            },
+            {
+                "root": "اثر",
+                "root_bw": "Avr",
+                "word": "اٰثَرَ",
+                "urdu_mean": "ترجيح دينا",
+                "page": 0,
+                "q_ref": "12/91"
+            },
+            {
+                "root": "اثل",
+                "root_bw": "Avl",
+                "word": "اَثْل",
+                "urdu_mean": "درخت",
+                "page": 496
+            },
+            {
+                "root": "اثم",
+                "root_bw": "Avm",
+                "word": "اِثم",
+                "urdu_mean": "گناه",
+                "page": 760
+            },
+            {
+                "root": "اثم",
+                "root_bw": "Avm",
+                "word": "اٰثم",
+                "urdu_mean": "گنهگار",
+                "page": 763
+            },
+            {
+                "root": "اثم",
+                "root_bw": "Avm",
+                "word": "اثيم",
+                "urdu_mean": "گنهگار",
+                "page": 763
+            },
+            {
+                "root": "اثم",
+                "root_bw": "Avm",
+                "word": "اَثَّمَ ـ تاثِيم",
+                "urdu_mean": "گناه ميں ڈالنا",
+                "page": 0,
+                "q_ref": "52/23"
+            },
+            {
+                "root": "اجج",
+                "root_bw": "Ajj",
+                "word": "اُجَاج",
+                "urdu_mean": "پانى كى اقسام ـ كڑوا",
+                "page": 285
+            },
+            {
+                "root": "اجج",
+                "root_bw": "Ajj",
+                "word": "ياجوج ـ ماجوج",
+                "urdu_mean": "ـ",
+                "page": 946
+            },
+            {
+                "root": "اجر",
+                "root_bw": "Ajr",
+                "word": "اَجْر",
+                "urdu_mean": ["بدله", "حق مهر", "مزدورى"],
+                "page": [218, 468, 0]
+            },
+            {
+                "root": "اجر",
+                "root_bw": "Ajr",
+                "word": "اَجَرَ",
+                "urdu_mean": "مزدورى كرنا",
+                "page": 0,
+                "q_ref": "28/27"
+            },
+            {
+                "root": "اجر",
+                "root_bw": "Ajr",
+                "word": "استاجرى",
+                "urdu_mean": "مزدورى پر ركهنا",
+                "page": 0,
+                "q_ref": "28/26"
+            },
+            {
+                "root": "اجل",
+                "root_bw": "Ajl",
+                "word": "اَجَلَ",
+                "urdu_mean": ["مدت", "وقت"],
+                "page": [183, 893]
+            },
+            {
+                "root": "اجل",
+                "root_bw": "Ajl",
+                "word": "أَجْل",
+                "urdu_mean": "وجه _ سبب",
+                "page": 0,
+                "q_ref": "5/32"
+            },
+            {
+                "root": "اجل",
+                "root_bw": "Ajl",
+                "word": "اَجَّلَ",
+                "urdu_mean": "مقرر كرنا",
+                "page": 838
+            },
+            {
                 "root": "اخر",
                 "root_bw": "Axr",
                 "word": "اٰخِرَت",
