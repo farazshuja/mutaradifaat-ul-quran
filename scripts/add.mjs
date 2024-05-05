@@ -7,7 +7,6 @@ const arabicIndexFile = path.join(process.cwd(), 'data/arabicIndex.json');
 
 fsPromises.readFile(arabicIndexFile, 'utf8') 
     .then(data => { 
-            debugger;
             let json = JSON.parse(data);
             if (word.ab) {
                 // if alphabet already exist then append into it

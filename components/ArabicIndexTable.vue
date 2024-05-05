@@ -1,14 +1,16 @@
 <template>
     <div class="arabic font-nn">       
         <template v-for="con in arabicIndex" :key="con.bw">
-            <HeadText :text="con.ab" :id="con.bw" cname="h2" />
+            <HeadText :text="con.core" :id="con.core" cname="h2" />
             <div class="grid-container">
-                <div>
-                    <div v-for="(word, idx) in con.list">
-                        <HeadText v-if="word[idx]?.root !== word[idx-1]?.root" :text="word.root" :id="word.root_bw" cname="h3" />
+                <div v-for="(word, idx) in con.data" class="sec">
+                    <HeadText :text="word.root_ar" :id="word.root_ar" cname="h3" />
+
+                    <div v-for="(w, idx) in word.words">
                         <div class="word">
-                            <span class="base-word">{{ word.word }}</span>
-                            <UrduWordLink :mean="word.urdu_mean" :page="word.page" :q-ref="word.q_ref" />
+                            <span class="base-word">{{ w.word_ar }}</span>
+                            <span class="mean-word-ur">{{  w.mean_ur }}</span>
+                            <!-- <UrduWordLink :mean="w.urdu_mean" :page="word.page" :q-ref="word.q_ref" /> -->
                         </div>
                     </div>
                 </div>
@@ -46,9 +48,12 @@ const arabicIndex = getArabicIndexData();
             padding-inline-end: 10px;
         }
     }
-
+    .sec {
+        padding-bottom: 10px;
+    }
     h2 {
-        font-size: 36px;
+        font-size: 60px;
+        text-align: center;
     }
 
     h3 {

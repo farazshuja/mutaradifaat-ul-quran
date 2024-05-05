@@ -1,3 +1,12 @@
+/* Jameel Noori Nastaliq v4 */
+/* font link */
+/* https://unpkg.com/browse/jameel-noori@1.1.0/fonts/jameel-noori-nastaleeq4.woff2 */
+@font-face {
+    font-family: "JameelNooriNastaliq";
+    src: url(https://cdn.jsdelivr.net/npm/jameel-noori/fonts/jameel-noori-nastaleeq4.woff2) format('woff2'),
+         url(https://unpkg.com/jameel-noori/fonts/jameel-noori-nastaleeq4.woff2) format('woff2');
+}
+
 a {
     text-decoration: none !important;
 }
@@ -5,10 +14,11 @@ a:hover {
     text-decoration: underline !important;
 }
 
-.font-nn {
-    font-family: "Noto Naskh Arabic", serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+body {
+    font-family: 'Rubik',
+}
+
+.mean-word-ur {
+    font-family: 'JameelNooriNastaliq';
 }
   
