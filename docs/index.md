@@ -11,8 +11,8 @@ hero:
       text: Arabic Index
       link: /arabic-index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Urdu Index
+      link: /urdu-index
 
 features:
   - title: Feature A

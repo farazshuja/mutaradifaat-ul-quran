@@ -10,7 +10,6 @@
                         <div class="word">
                             <span class="base-word">{{ w.word_ar }}</span>
                             <span class="mean-word-ur">{{  w.mean_ur }}</span>
-                            <!-- <UrduWordLink :mean="w.urdu_mean" :page="word.page" :q-ref="word.q_ref" /> -->
                         </div>
                     </div>
                 </div>

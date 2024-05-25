@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { getArabicIndexAlphabets } from '../../data/dataLayer';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,7 +20,7 @@ export default defineConfig({
             collapsed: true,
             // items: getArabicIndexAlphabets('/arabic-index'),
           },
-          { text: 'Runtime API Examples', link: '/api-examples', collapsed: true }
+          { text: 'Urdu Index', link: '/urdu-index', collapsed: true }
         ]
       }
     ],

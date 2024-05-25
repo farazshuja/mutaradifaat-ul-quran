@@ -1,25 +1,11 @@
-import uniqBy from 'lodash/uniqBy';
-import data from './arabicIndex.json';
+import arabicIndex from './arabicIndex.json';
+import urduIndex from './urduIndex.json';
 
 export const getArabicIndexData = () => {
-    return data;
+    return arabicIndex;
 }
 
-export const getArabicIndexAlphabets = (baseUrl: string) => {
-    return data.map((d) => {
-        const item = {
-            text: d.ab,
-            link: `${baseUrl}#${d.bw}`,
-            items: [],
-        };
-        if (d.list.length > 0) {
-             const res = d.list.map((i) => ({
-                text: i.root,
-                link: `${baseUrl}#${i.root_bw}`,
-            }));
-
-            item.items = uniqBy(res, (x) => x.text);
-        }
-        return item;
-    });
+export const getUrduIndexData = () => {
+    return urduIndex;
 }
+
