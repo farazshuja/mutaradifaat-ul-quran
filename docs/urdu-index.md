@@ -1,4 +1,3 @@
-##Urdu
 <UrduIndexTable />
 
 <script setup>
